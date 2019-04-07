@@ -57,7 +57,7 @@ export class GalleryComponent implements OnInit {
    {
       nombre: "Piscina",
       img: "../../../assets/img/exterior/ImagenExterior_22.jpg"
-   },
+   }/*,
      {
       nombre: "Piscina",
       img: "../../../assets/img/exterior/ImagenExterior_23.jpg"
@@ -77,7 +77,7 @@ export class GalleryComponent implements OnInit {
     {
       nombre: "Piscina",
       img: "../../../assets/img/exterior/ImagenExterior_29.jpeg"
-    },
+    }*/,
     {
       nombre: "Recepcion",
       img: "../../../assets/img/exterior/ImagenExterior_30.jpeg"
@@ -115,7 +115,7 @@ export class GalleryComponent implements OnInit {
   constructor(config: NgbCarouselConfig) { 
     // customiza default values of carousels used by this component tree
     config.interval = 5000;
-    config.wrap = false;
+    config.wrap = true;
     config.keyboard = true;
     config.pauseOnHover = false;
 

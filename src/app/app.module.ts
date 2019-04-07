@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { APP_ROUTING } from './app.routes';
 
 // Services
+import { RoomsService } from './services/rooms.service';
 
 // Components
 import { AppComponent } from './app.component';
@@ -33,7 +34,9 @@ import { RoomsComponent } from './components/rooms/rooms.component';
     APP_ROUTING,
     NgbModule
   ],
-  providers: [],
+  providers: [
+    RoomsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
