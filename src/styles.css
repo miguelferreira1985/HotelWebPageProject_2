@@ -1,1 +1,90 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    padding-bottom: 50px;
+}
+
+.main-container{
+    margin-top: 80px;
+}
+
+.navbar{
+    background-color: #f4511e !important;
+    color: white !important;
+}
+
+.navbar-font{
+    font-size: 25px;
+}
+
+.btn-menu{
+    color: white !important;
+}
+
+.menu-nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.jumbotron{
+    background-color: #f4511e !important;
+    color: white;
+}
+
+.top-space{
+    margin-top: 110px;
+}
+
+.img-top-space{
+    margin-top: 20px;
+}
+
+.text-top-space{
+    margin-top: 20px;
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+
+.footer {
+    background-color: #f4511e !important;
+    color: white !important;
+}
+
+.footer-font{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Animated */
+
+.animated{
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;  
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+    .fadeIn{
+        animation-name: fadeIn;
+    }

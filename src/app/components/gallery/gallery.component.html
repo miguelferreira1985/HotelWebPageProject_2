@@ -1,0 +1,19 @@
+<div class="row justify-content-md-center">
+  <div class="col col-sm-9 ">
+      <ngb-carousel *ngIf="images">
+          <ng-template ngbSlide *ngFor="let image of images; let i = index">
+            <img class="img-thumbnail text-center" width="1000%" [src]="image.img" [alt]="image.nombre">
+            <div class="carousel-caption">
+              <h3>Title text</h3>
+              <p>This carousel example...</p>
+            </div>
+          </ng-template>
+        </ngb-carousel>
+  </div>
+</div>
+  
+  
+
+
+
+
