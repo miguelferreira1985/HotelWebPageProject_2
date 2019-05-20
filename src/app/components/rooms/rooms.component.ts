@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { RoomsService, Room } from '../../services/rooms.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-rooms',
@@ -6,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RoomsComponent implements OnInit {
 
-  constructor() { }
+  rooms: Room[] = [];
+
+  constructor(private _roomsService: RoomsService, private router: Router) { }
 
   ngOnInit() {
+    this.rooms = this._roomsService.getRooms();
+  }
+
+  seeRoom( index: number ){
+    this.router.navigate( ['/room', index] );
   }
 
 }
