@@ -1,0 +1,14 @@
+<h1 class="display-5 m-2 text-center animated fadeIn"><strong>Nuestras Instalaciones</strong></h1>
+<div class="row justify-content-md-center">
+  <div class="col col-sm-8 ">
+      <ngb-carousel *ngIf="facilities">
+          <ng-template ngbSlide *ngFor="let facility of facilities; let i = index">
+            <img class="img-thumbnail text-center"  width="100%" height="80%" [src]="facility.img" [alt]="facility.name">
+            <div class="carousel-caption">
+              <h3> {{ facility.name }} </h3>
+              <p> &quot;{{ facility.description }}&quot; </p>
+            </div>
+          </ng-template>
+        </ngb-carousel>
+  </div>
+</div>

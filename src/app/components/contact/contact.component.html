@@ -1,1 +1,80 @@
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+    <div class="jumbotron">
+        <h2 class="display-4 text-center font-weight-bold">Contactanos</h2>
+    </div>
+    <div class="row m-4">
+        <div class="col-sm-5">
+            <p class="font-weight-bold">Contactanos y nosotros te responderemos lo mas pronto posible.</p>
+            <span class="fa fa-map-marker" style="font-size:20px;color:#f4511e"></span> Calle 27 # 184 entre 86 y 88 Col. Centro C.P. 97320 Progreso, YUC.<br>
+            <a href="https://wa.me/+5219601016233"><span class="fa fa-whatsapp" style="font-size:20px;color:#f4511e"></span>  +52 9601016233</a><br>
+            <span class="fa fa-phone" style="font-size:20px;color:#f4511e"></span>  +52 9691036493<br>
+            <span class="fa fa-envelope" style="font-size:20px;color:#f4511e"></span>  nictehaprogreso@gmail.com<br>
+            <a href="https://www.facebook.com/Hotelnictehaprogreso/"><span class="fa fa-facebook-square" style="font-size:20px;color:#f4511e"></span>  Hotel Nicte-Ha Progreso</a><br>
+        </div>
+        <div class="col-sm-7 slideanim">
+
+            <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoomHotel">
+                <agm-marker [latitude]="lat" [longitude]="lng" ></agm-marker>
+            </agm-map>
+        </div>
+    </div>
+    <form class="contact-form">
+        <h2 class="display-5 text-center font-weight-bold">Contactanos y nosotros te responderemos lo mas pronto posible.</h2>
+        <div class="form-row contact-form2">
+            <div class="form-group col-sm-6">
+                <label for="name">Nombre de Contacto:</label>
+                <input type="text" class="form-control" placeholder="">
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Correo Electronico:</label>
+                <input type="email" class="form-control" placeholder="example@example.com">
+            </div>
+        </div>
+        <div class="form-row contact-form2">
+            <div class="form-group col-sm-3">
+                <label>Llegada:</label>
+                <input type="datetime" class="form-control" placeholder="Fecha y hora de llegada">
+            </div>
+            <div class="form-group col-sm-3">
+                <label>Salida:</label>
+                <input type="datetime" class="form-control" placeholder="Fecha de salida">
+            </div>
+            <div class="form-group col-sm-3">
+                <label>Adultos:</label>
+                <input type="number" class="form-control" min="1" max="4" placeholder="Numero de Adultos(max 4)">
+            </div>
+            <div class="form-group col-sm-3">
+                <label>Niños:</label>
+                <input type="number" class="form-control" min="1" max="2" placeholder="Numero de niños(hasta 10 años)">
+            </div>
+        </div>
+        <div class="form-row contact-form2">
+            <div class="form-group col-sm-4">
+                <label for="name">Telefono</label>
+                <input type="phone" class="form-control" placeholder="Telefono Casa/Oficina">
+            </div>
+            <div class="form-group col-sm-4">
+                <label>Celular:</label>
+                <input type="email" class="form-control" placeholder="Numero de Celular">
+            </div>
+            <div class="form-group col-sm-4">
+                <label>Preferencia de Contacto:</label>
+                <select class="form-control">
+                    <option>Seleccione una...</option>
+                    <option>Correo Electronico</option>
+                    <option>Llamada a Celular</option>
+                    <option>Whatsapp</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row contact-form2">
+            <div class="form-group col-sm-12">
+                <label>Comentarios Adicionales:</label>
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-info btn-lg btn-block fa-pull-right">Enviar</button>
+    </form>
+</div>
 

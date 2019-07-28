@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { RoomsService, Room } from '../../services/rooms.service';
+import { RoomTypeService, Room } from '../../services/roomType.service';
+
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,12 +9,12 @@ import { Router } from '@angular/router';
 })
 export class RoomsComponent implements OnInit {
 
-  rooms: Room[] = [];
+  roomType: Room[] = [];
 
-  constructor(private _roomsService: RoomsService, private router: Router) { }
+  constructor(private _roomTypeService: RoomTypeService, private router: Router) { }
 
   ngOnInit() {
-    this.rooms = this._roomsService.getRooms();
+    this.roomType = this._roomTypeService.getRoomsType();
   }
 
   seeRoom( index: number ){

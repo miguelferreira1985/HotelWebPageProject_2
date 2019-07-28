@@ -2,10 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+//Maps
+import { AgmCoreModule } from '@agm/core';
 // Routes
 import { APP_ROUTING } from './app.routes';
 
 // Services
+import { RoomTypeService } from './services/roomType.service';
+import { FacilitiesService } from './services/facilities.service';
 import { RoomsService } from './services/rooms.service';
 
 // Components
@@ -19,6 +23,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { RoomsComponent } from './components/rooms/rooms.component';
 import { RoomComponent } from './components/room/room.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FacilitiesGalleryComponent } from './components/facilities-gallery/facilities-gallery.component';
+import { RoomsGalleryComponent } from './components/rooms-gallery/rooms-gallery.component';
 
 
 @NgModule({
@@ -32,14 +38,21 @@ import { ContactComponent } from './components/contact/contact.component';
     GalleryComponent,
     RoomsComponent,
     RoomComponent,
-    ContactComponent
+    ContactComponent,
+    FacilitiesGalleryComponent,
+    RoomsGalleryComponent
   ],
   imports: [
     BrowserModule,
     APP_ROUTING,
-    NgbModule
+    NgbModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDJjfiuXPIPRMveYkgc17QOrz8dlR6zLWU'
+    })
   ],
   providers: [
+    RoomTypeService,
+    FacilitiesService,
     RoomsService
   ],
   bootstrap: [AppComponent]
