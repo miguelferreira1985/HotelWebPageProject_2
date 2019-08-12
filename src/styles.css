@@ -3,6 +3,31 @@ body{
     padding-bottom: 50px;
 }
 
+agm-map {
+    height: 300px;
+}
+
+.contact-form{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.contact-form2{
+    margin-top: 20px;
+
+}
+  
+.sm-jumbotron{
+    margin: 0px;
+    padding: 2rem;
+    background-color: #f4511e !important;
+    color: #fff;
+}
+
+.loading{
+    margin-top: 200px;
+}
+
 .main-container{
     margin-top: 80px;
 }

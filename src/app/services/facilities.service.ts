@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class RoomsService{
+export class FacilitiesService{
 
-    private rooms: Room [] =[
+    private facilities: Facility [] =[
         {
             name: "Hotel Maria's Nicte-He",
             description: "Vista exterior de nuestras intalaciones, al pasar esa puerta iniciara su mejor experiencia en hospedaje...",
@@ -133,13 +133,12 @@ export class RoomsService{
 
     constructor(){}
 
-    getRooms(): Room[]{
-        return this.rooms;
-    } 
-
+    getFacilities(): Facility[]{
+        return this.facilities;
+    }
 }
 
-export interface Room{
+export interface Facility{
     name: string;
     description: string;
     img: string;

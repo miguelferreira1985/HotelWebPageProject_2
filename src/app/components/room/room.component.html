@@ -1,0 +1,19 @@
+<div class="card mb-3 animated fadeIn">
+    <img [src]="room.image" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> {{ room.name }} </h5>
+      <p class="card-text text-justify"> {{ room.description }} </p>
+      <ul class="list-group">
+          <li class="list-group-item">Precio por noche (2 paxs): <strong>{{ room.price | currency }}</strong> </li>
+          <li class="list-group-item">*Maximo de personas: <strong>{{ room.maxPax }}</strong> </li>
+          <li class="list-group-item">Numero de camas: <strong>{{ room.bedNumber }}</strong> </li>
+          <li class="list-group-item">*Persona Adicional: <strong>$150.00</strong> </li>
+        </ul>
+      <p class="card-text"><small class="text-muted">* Los precios de las habitaciones son por noche y para 2 personas, pueden entrar peronas adicionales hasta un cubir el
+          maximo de personas permitidas por habitacion y pagando el precio adicional por persona. Niños menores de 10 años no pagan.</small></p>
+    </div>
+    <div class="card-body">
+        <a [routerLink]="['/rooms']" class="btn btn-outline-info btn-block">Regresar</a>
+        <a [routerLink]="['/contact']" class="btn btn-outline-primary btn-block">Contactar al Hotel</a>
+      </div>
+  </div>
