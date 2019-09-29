@@ -1,5 +1,10 @@
 <div class="card mb-3 animated fadeIn">
-    <img [src]="room.image" class="card-img-top" alt="...">
+    <ngb-carousel *ngIf="room">
+        <ng-template ngbSlide *ngFor="let rooms of room.image; let i = index">
+          <img class="img-thumbnail text-center"  width="100%" height="80%" [src]="rooms">
+        </ng-template>
+      </ngb-carousel>
+    <!-- <img [src]="room.image" class="card-img-top" width="300" alt="..."> -->
     <div class="card-body">
       <h5 class="card-title"> {{ room.name }} </h5>
       <p class="card-text text-justify"> {{ room.description }} </p>

@@ -5,129 +5,184 @@ export class RoomsService{
 
     private rooms: Room [] =[
         {
-            name: "Hotel Maria's Nicte-He",
-            description: "Vista exterior de nuestras intalaciones, al pasar esa puerta iniciara su mejor experiencia en hospedaje...",
-            img: "../../../assets/img/exterior/ExteriorHotel.jpg"
+            name: "Casita Nicte-Ha",
+            //description: "Vista exterior de nuestras intalaciones, al pasar esa puerta iniciara su mejor experiencia en hospedaje...",
+            img: "../../../assets/img/habitaciones/Casita_1.jpeg"
           },
           {
-            name: "Piscina Nicte-Ha",
-            description: "Piscina ubicada en el jardin del hotel, de us exclusivo para los huespedes y aerea de poca profundidad para los niños...",
-            img: "../../../assets/img/exterior/ImagenExterior_03.jpeg"
+            name: "Casita Nicte-Ha",
+            //description: "Piscina ubicada en el jardin del hotel, de us exclusivo para los huespedes y aerea de poca profundidad para los niños...",
+            img: "../../../assets/img/habitaciones/Casita_2.jpeg"
           },
           {
-            name: "Entrada y Area de descando",
-            description: "Entrada al hotel y area de descansoen la cual podra descansar unos momentos sintiendo la agradable brisa despues de su paseo...",
-            img: "../../../assets/img/exterior/ImagenExterior_04.jpeg"
+            name: "Casita Nicte-Ha",
+            //description: "Entrada al hotel y area de descansoen la cual podra descansar unos momentos sintiendo la agradable brisa despues de su paseo...",
+            img: "../../../assets/img/habitaciones/Casita_3.jpeg"
           },
           {
-            name: "Area de Hamacas y Descanso",
-            description: "Relajese y descanse un rato en nuestra area de hamacas...",
-            img: "../../../assets/img/exterior/ImagenExterior_05.jpg"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_4.jpeg"
           },
           {
-            name: "Area de Hamacas y Descanso",
-            description: "Vista de nuestra area de hamacas disenada para que los huespedes tomen un tiempo de descanso al momento que disfrutan la agradable brisa de nuestra hermosa ciudad...",
-            img: "../../../assets/img/exterior/ImagenExterior_06.JPG"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_5.jpeg"
           },
           {
-            name: "Area de Hamacas y Descanso",
-            description: "Traiga un libro, pongase sus audifonos con su musica preferida o solo acuestese en una de nuestras hamacas a relajarse, usted decide...",
-            img: "../../../assets/img/exterior/ImagenExterior_07.JPG"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_5.jpeg"
           },
           {
-            name: "Area de Descanso",
-            description: "Disfrute de la experiencia de disfrutar de la agradable brisa relajandose en una hamaca...",
-            img: ".../../../assets/img/exterior/ImagenExterior_08.JPG"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_6.jpeg"
           },
           {
-            name: "Area de Hamacas y Descanso",
-            description: "Esta area tambien la puede aprovechar para pasar momentos de sana convivencia con familiares y amigos durante su estancia...",
-            img: "../../../assets/img/exterior/ImagenExterior_09.JPG"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_7.jpeg"
           },
           {
-            name: "Piscina Nicte-Ha",
-            description: "Ya sea que quiera darse un chapuson para refrescarse o simplemente relajarse un rato en uno de nuestros camastros...",
-            img: "../../../assets/img/exterior/ImagenExterior_17.jpg"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_8.jpeg"
           },
           {
-            name: "Piscina Nicte-Ha",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_19.jpg"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_9.jpeg"
           },
           {
-            name: "Pasillo",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_20.JPG"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_10.jpeg"
           },
           {
-            name: "Piscina",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_21.JPG"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_11.jpeg"
           },
           {
-            name: "Piscina",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_28.jpg"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_12.jpeg"
           },
           {
-            name: "Piscina",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_29.jpeg"
+            name: "Casita Nicte-Ha",
+            //description: "Relajese y descanse un rato en nuestra area de hamacas...",
+            img: "../../../assets/img/habitaciones/Casita_14.jpeg"
           },
           {
-            name: "Recepcion",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_30.jpeg"
+            name: "Estudio Estandar",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D1_1.jpeg"
           },
           {
-            name: "Recepcion",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_31.jpeg"
+            name: "Estudio Estandar",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D1_2.jpeg"
           },
           {
-            name: "Entrada",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_33.jpeg"
+            name: "Estudio Estandar",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D1_3.jpeg"
           },
           {
-            name: "Renta de Bicicletas",
-            description: "Tenemos a su disposicion bicicletas para rentar, con ellas podra recorrer la hemosa ciudad...",
-            img: "../../../assets/img/exterior/ImagenExterior_34.jpeg"
+            name: "Estudio Estandar",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D1_4.jpeg"
           },
           {
-            name: "Area de Descanso",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_35.jpeg"
+            name: "Estudio Estandar",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D2_2.jpeg"
           },
           {
-            name: "Area de Descanso",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_36.jpeg"
+            name: "Estudio Estandar",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D2_3.jpeg"
           },
           {
-            name: "Area de Descanso",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_37.jpeg"
+            name: "Estudio Estandar Doble",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D3_2.jpeg"
           },
           {
-            name: "Area de Descanso",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_39.jpeg"
+            name: "Estudio Estandar Doble",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D5_1.jpeg"
           },
           {
-            name: "Area de Descanso",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_40.jpeg"
+            name: "Estudio Estandar Doble",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D5_4.jpeg"
           },
           {
-            name: "Area de Descanso",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_41.jpeg"
+            name: "Estudio Estandar",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D7_1.jpeg"
           },
           {
-            name: "Area de Descanso",
-            description: "",
-            img: "../../../assets/img/exterior/ImagenExterior_42.jpg"
+            name: "Estudio Estandar",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D7_3.jpeg"
+          },
+          {
+            name: "Estudio Estandar",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D7_4.jpeg"
+          },
+          {
+            name: "Habitacion Doble sin Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D8_1.jpeg"
+          },
+          {
+            name: "Habitacion Doble sin Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D8_2.jpeg"
+          },
+          {
+            name: "Habitacion Doble sin Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D8_3.jpeg"
+          },
+          {
+            name: "Habitacion Sencilla sin Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D9_1.jpeg"
+          },
+          {
+            name: "Habitacion Sencilla sin Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D9_2.jpeg"
+          },
+          {
+            name: "Habitacion Sencilla sin Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D9_3.jpeg"
+          },
+          {
+            name: "Habitacion Sencilla sin Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D10_1.jpeg"
+          },
+          {
+            name: "Habitacion Doble con Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D11_1.jpeg"
+          },
+          {
+            name: "Habitacion Doble con Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D11_2.jpeg"
+          },
+          {
+            name: "Habitacion Doble con Cocina",
+            //description: "",
+            img: "../../../assets/img/habitaciones/D11_3.jpeg"
           }
     ];
 
@@ -141,6 +196,6 @@ export class RoomsService{
 
 export interface Room{
     name: string;
-    description: string;
+    //description: string;
     img: string;
 }

@@ -1,7 +1,7 @@
 <div class="row m-5">
   <div *ngFor="let room of roomType; let i = index" class="col-sm-6">
     <div class="card animated fadeIn">
-          <img [src]="room.image" class="card-img-top" alt="...">
+          <img [src]="room.image[0]" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title text-center"> {{ room.name }} </h5>
         <ul class="list-group">
