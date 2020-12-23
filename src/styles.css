@@ -1,70 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    padding-bottom: 50px;
+
+body {
+    padding-bottom: 70px;
 }
 
 agm-map {
     height: 300px;
 }
 
-.contact-form{
+.contact-form {
     margin-top: 25px;
     margin-bottom: 100px;
 }
 
-.contact-form2{
-    margin-top: 20px;
-
+.text-custom-color-title {
+    color: #f3754e;
 }
-  
-.sm-jumbotron{
+
+.text-custom-color-content {
+    color: hsl(14, 92%, 67%);
+}
+
+.contact-form2 {
+    margin-top: 20px;
+}
+
+.sm-jumbotron {
     margin: 0px;
     padding: 2rem;
     background-color: #f4511e !important;
     color: #fff;
 }
 
-.loading{
+.loading {
     margin-top: 200px;
 }
 
-.main-container{
+.main-container {
     margin-top: 80px;
 }
 
-.navbar{
+.navbar {
     background-color: #f4511e !important;
     color: white !important;
 }
 
-.navbar-font{
-    font-size: 25px;
+.navbar-font {
+    font-size: 20px;
 }
 
-.btn-menu{
+.btn-menu {
     color: white !important;
 }
 
-.menu-nav{
+.menu-nav {
     margin-left: auto;
     margin-right: auto;
     width: 100px;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: #f4511e !important;
     color: white;
 }
 
-.top-space{
+.top-space {
     margin-top: 110px;
 }
 
-.img-top-space{
+.img-top-space {
     margin-top: 20px;
 }
 
-.text-top-space{
+.text-top-space {
     margin-top: 20px;
 }
 
@@ -73,43 +81,42 @@ agm-map {
     font-size: 50px;
 }
 
-
 .footer {
     background-color: #f4511e !important;
     color: white !important;
 }
 
-.footer-font{
+.footer-font {
     margin-left: auto;
     margin-right: auto;
 }
 
+
 /* Animated */
 
-.animated{
+.animated {
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 
-.fast{
+.fast {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;  
+    animation-fill-mode: both;
 }
 
-@keyframes fadeIn{
-    from{
+@keyframes fadeIn {
+    from {
         opacity: 0;
     }
-
-    to{
+    to {
         opacity: 1;
     }
 }
 
-    .fadeIn{
-        animation-name: fadeIn;
-    }
+.fadeIn {
+    animation-name: fadeIn;
+}

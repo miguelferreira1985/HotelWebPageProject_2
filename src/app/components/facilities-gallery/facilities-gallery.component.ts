@@ -12,18 +12,16 @@ export class FacilitiesGalleryComponent implements OnInit {
 
   facilities: Facility[] = [];
 
-  constructor(private _facilitiesService: FacilitiesService, config: NgbCarouselConfig) {
+  constructor(private facilitiesService: FacilitiesService, config: NgbCarouselConfig) {
         // customiza default values of carousels used by this component tree
-        config.interval = 5000;
+        config.interval = 3000;
         config.wrap = true;
         config.keyboard = true;
         config.pauseOnHover = true;
    }
 
   ngOnInit() {
-    
-    this.facilities = this._facilitiesService.getFacilities();
-
+    this.facilities = this.facilitiesService.getFacilities();
   }
 
 }

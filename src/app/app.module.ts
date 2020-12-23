@@ -21,7 +21,6 @@ import { AboutComponent } from './components/about/about.component';
 import { ServiceComponent } from './components/service/service.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { RoomsComponent } from './components/rooms/rooms.component';
-import { RoomComponent } from './components/room/room.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FacilitiesGalleryComponent } from './components/facilities-gallery/facilities-gallery.component';
 import { RoomsGalleryComponent } from './components/rooms-gallery/rooms-gallery.component';
@@ -37,7 +36,6 @@ import { RoomsGalleryComponent } from './components/rooms-gallery/rooms-gallery.
     ServiceComponent,
     GalleryComponent,
     RoomsComponent,
-    RoomComponent,
     ContactComponent,
     FacilitiesGalleryComponent,
     RoomsGalleryComponent

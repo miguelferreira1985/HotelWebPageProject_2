@@ -1,24 +1,31 @@
-<div class="row m-5">
-  <div *ngFor="let room of roomType; let i = index" class="col-sm-6">
-    <div class="card animated fadeIn">
-          <img [src]="room.image" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title text-center"> {{ room.name }} </h5>
-        <ul class="list-group">
-          <li class="list-group-item">Precio por noche (2 paxs): <strong>{{ room.price | currency }}</strong> </li>
-          <li class="list-group-item">*Maximo de personas: <strong>{{ room.maxPax }}</strong> </li>
-          <li class="list-group-item">Numero de camas: <strong>{{ room.bedNumber }}</strong> </li>
-          <li class="list-group-item">*Persona Adicional: <strong>$150.00</strong> </li>
-        </ul>
-        <button (click)="seeRoom(i);" type="button" class="btn btn-outline-info btn-block">
-          Mas informacion...
-        </button>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">
-          * Los precios de las habitaciones son por noche y para 2 personas, pueden entrar peronas adicionales hasta un cubir el
-          maximo de personas permitidas por habitacion y pagando el precio adicional por persona. Niños menores de 10 años no pagan.   
-        </small>
-      </div>
+<div *ngFor="let room of roomType">
+
+    <div class="card mb-3" style="max-width: 100%;">
+
+        <div class="row no-gutters">
+
+            <div class="col-md-6">
+                <img [src]="room.image" class="card-img" alt="...">
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="card-body">
+                    <h2 class="card-titl text-custom-color-title text-center"> {{ room.name }} <span class="badge badge-success">{{ room.price | currency }}</span> </h2>
+                    <p class="card-text text-custom-color-content text-justify"> {{ room.description }} </p>
+                    <p class="card-text "><small class="text-muted ">* Los precios de las habitaciones son por noche y para 2 personas, el costo de la persona adicional es de $150.00 hasta un maximo de {{ room.maxPax }}</small></p>
+                </div>
+
+                <div class="card-body">
+                    <button [routerLink]="['/contact']" type="button " class="btn btn-outline-info btn-block ">
+                    Mas informacion...
+                  </button>
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
-  </div>
+
+</div>

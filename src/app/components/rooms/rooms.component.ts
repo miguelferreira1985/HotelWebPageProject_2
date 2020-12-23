@@ -11,14 +11,10 @@ export class RoomsComponent implements OnInit {
 
   roomType: Room[] = [];
 
-  constructor(private _roomTypeService: RoomTypeService, private router: Router) { }
+  constructor(private roomTypeService: RoomTypeService, private router: Router) { }
 
   ngOnInit() {
-    this.roomType = this._roomTypeService.getRoomsType();
-  }
-
-  seeRoom( index: number ){
-    this.router.navigate( ['/room', index] );
+    this.roomType = this.roomTypeService.getRoomsType();
   }
 
 }

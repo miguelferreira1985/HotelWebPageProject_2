@@ -11,7 +11,7 @@ export class RoomsGalleryComponent implements OnInit {
 
   rooms: Room[] = [];
 
-  constructor(private _roomsService: RoomsService, config: NgbCarouselConfig) {
+  constructor(private roomsService: RoomsService, config: NgbCarouselConfig) {
     config.interval = 5000;
     config.wrap = true;
     config.keyboard = true;
@@ -21,7 +21,7 @@ export class RoomsGalleryComponent implements OnInit {
 
   ngOnInit() {
 
-    this.rooms = this._roomsService.getRooms();
+    this.rooms = this.roomsService.getRooms();
 
   }
 
